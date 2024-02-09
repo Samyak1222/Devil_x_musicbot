@@ -35,27 +35,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("ANNIEMUSIC.plugins" + all_module)
-    LOGGER("ANNIEMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("DEVILMUSIC.plugins" + all_module)
+    LOGGER("DEVILMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
     await JARVIS.start()
     try:
-        await JARVIS.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await DEVIL.stream_call("https://graph.org/file/4d79163fb46a195bd42b9.jpg")
     except NoActiveGroupCall:
-        LOGGER("ANNIEMUSIC").error(
-            "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\nJARVIS� 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
+        LOGGER("DEVILMUSIC").error(
+            "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\nDEVIL� 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
         )
         exit()
     except:
         pass
     await JARVIS.decorators()
-    LOGGER("ANNIEMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗝𝗔𝗥𝗩𝗜𝗦☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+    LOGGER("DEVILMUSIC").info(
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎MADE BY DEVIL☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("ANNIEMUSIC").info("𝗦𝗧𝗢𝗣 𝗝𝗔𝗥𝗩𝗜𝗦 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("ANNIEMUSIC").info("𝗦𝗧𝗢𝗣 DEVIL 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
